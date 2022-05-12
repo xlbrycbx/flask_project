@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="MySQL - mofin-scmsys@47.98.143.6" uuid="e8c9d123-4a8d-4779-af0f-47936fec03d6">
-      <driver-ref>mysql.8</driver-ref>
+    <data-source source="LOCAL" name="try.db" uuid="5aa98769-db45-44b8-a16e-e5e28ba1b9aa">
+      <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://47.98.143.6:6301/mofin-scmsys</jdbc-url>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../../../../sqlite/sqlite-tools-win32-x86-3380500/try.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
